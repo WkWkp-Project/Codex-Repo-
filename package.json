@@ -1,16 +1,22 @@
-{
-  "name": "ai-customer-service-agency-demo",
-  "version": "1.0.0",
-  "description": "Full-loop AI Customer Service agency web app demo with internal/client portals and mock backend APIs.",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "test": "node --test tests/*.test.js",
-    "check": "node --check server.js && node --test tests/*.test.js"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "license": "UNLICENSED"
-}
+diff --git a/package.json b/package.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..59200fb5fcb7f224a01f867033e9b46b8017f615
+--- /dev/null
++++ b/package.json
+@@ -0,0 +1,16 @@
++{
++  "name": "ai-customer-service-agency-demo",
++  "version": "1.0.0",
++  "description": "Full-loop AI Customer Service agency web app demo with internal/client portals and mock backend APIs.",
++  "main": "server.js",
++  "type": "module",
++  "scripts": {
++    "start": "node server.js",
++    "test": "node --test tests/*.test.js",
++    "check": "node --check server.js && node --test tests/*.test.js"
++  },
++  "engines": {
++    "node": ">=18"
++  },
++  "license": "UNLICENSED"
++}
